@@ -1,9 +1,9 @@
 # 原神导出抽卡记录 JS 版
 
 1. 受 [sunfkny](https://github.com/sunfkny/genshin-gacha-export-js) 和 [Velocita](https://github.com/Velocita/genshin-gacha-export-js) 启发，重写一个 JavaScript 版。  
-2. 整个流程可以再手机上直接操作, 无需抓包或者 PC 操作。  
+2. 整个流程可以只在手机上直接操作, 无需抓包或者 PC 。  
 3. 工具需要获取到 authky，这相当于用户身份信息，目前可以做啥还不清楚，不排除可以重置密码等操作，建议别泄露到其它地方。  
-4. 本工具纯本地运行，不会收集任何用户信息。
+4. 郑重声明：本工具纯本地运行，不会收集任何用户信息。
 
 ## 一、保存浏览器书签
 
