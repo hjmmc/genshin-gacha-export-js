@@ -1,6 +1,6 @@
 // library from cdn
-const ExcelJSUrl = "https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.2.0/exceljs.min.js";
-const FileSaverUrl = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js";
+const ExcelJSUrl = "https://cdn.jsdelivr.net/npm/exceljs@4.2.0/dist/exceljs.min.js";
+const FileSaverUrl = "https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js";
 const GachaTypesUrl = `https://hk4e-api.mihoyo.com/event/gacha_info/api/getConfigList`;
 const GachaLogBaseUrl = `https://hk4e-api.mihoyo.com/event/gacha_info/api/getGachaLog`;
 
@@ -279,7 +279,7 @@ async function main() {
 	} catch (e) {
 		htmlLog(`导出失败: ${e}`);
 	}
-	htmlLog('<a target="_blank" style="font-size:20px;color:red;" href="https://genshin.lhjmmc.cn">打开分析界面</a>');
+	htmlLog('<a target="_blank" style="font-size:20px;color:red;" href="https://genshin-gacha-analyzer.vercel.app/">打开分析界面</a>');
 }
 
 if (!window.location.host.endsWith('mihoyo.com')) {
