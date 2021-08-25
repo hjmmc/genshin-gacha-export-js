@@ -20,9 +20,11 @@ javascript:(function(){const s=document.createElement("script");s.src='https://g
 3. 无需登录, 只需在当前页(米哈游通行证管理)打开存好的书签即可。脚本跑完就能得到你的抽卡记录 Excel 表啦
 4. 最后把表格上传至 [分析工具](https://genshin.lhjmmc.cn/) 即可进行分析
 
+PS: 若无法导出，请尝试更换浏览器，实在不行建议用 PC 上的 Chrome 浏览器打开，或者试试 [NodeJS 版](https://github.com/hjmmc/genshin-gacha-export-nodejs/releases)
 
 ## 附上截图
 
+<img src="screenshots/record.git">
 <img src="screenshots/1.png" width="280">
 <img src="screenshots/2.png" width="280">
 <img src="screenshots/3.png" width="280">
