@@ -1,6 +1,6 @@
 // library from cdn
-const ExcelJSUrl = "https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.2.0/exceljs.min.js";
-const FileSaverUrl = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js";
+const ExcelJSUrl = "https://cdn.bootcdn.net/ajax/libs/exceljs/4.2.1/exceljs.min.js";
+const FileSaverUrl = "https://cdn.bootcdn.net/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js";
 const GachaTypesUrl = `https://hk4e-api.mihoyo.com/event/gacha_info/api/getConfigList`;
 const GachaLogBaseUrl = `https://hk4e-api.mihoyo.com/event/gacha_info/api/getGachaLog`;
 
